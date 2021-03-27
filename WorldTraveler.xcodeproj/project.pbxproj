@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3360FA5260F8C7E00D578FA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3360FA7260F8C7E00D578FA /* Localizable.strings */; };
+		E3360FDD260F9CAB00D578FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3360FDF260F9CAB00D578FA /* InfoPlist.strings */; };
 		E3431EEC26074DDE0065415B /* WorldTravelerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3431EEB26074DDE0065415B /* WorldTravelerApp.swift */; };
 		E3431EEE26074DDE0065415B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3431EED26074DDE0065415B /* ContentView.swift */; };
 		E3431EF026074DDE0065415B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3431EEF26074DDE0065415B /* Assets.xcassets */; };
@@ -34,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E3360FA6260F8C7E00D578FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E3360FB2260F94EC00D578FA /* tr-TR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "tr-TR"; path = "tr-TR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E3360FDE260F9CAB00D578FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E3360FE3260F9CB200D578FA /* tr-TR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "tr-TR"; path = "tr-TR.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		E3431EE826074DDE0065415B /* WorldTraveler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTraveler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3431EEB26074DDE0065415B /* WorldTravelerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTravelerApp.swift; sourceTree = "<group>"; };
 		E3431EED26074DDE0065415B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,7 +103,9 @@
 		E3431EEA26074DDE0065415B /* WorldTraveler */ = {
 			isa = PBXGroup;
 			children = (
+				E3360FDF260F9CAB00D578FA /* InfoPlist.strings */,
 				E3431EEB26074DDE0065415B /* WorldTravelerApp.swift */,
+				E3360FA7260F8C7E00D578FA /* Localizable.strings */,
 				E3431EED26074DDE0065415B /* ContentView.swift */,
 				E3D66483260E6A2500873EE3 /* MapView.swift */,
 				E3431EEF26074DDE0065415B /* Assets.xcassets */,
@@ -218,6 +226,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"tr-TR",
 			);
 			mainGroup = E3431EDF26074DDE0065415B;
 			productRefGroup = E3431EE926074DDE0065415B /* Products */;
@@ -237,6 +246,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3431EF326074DDE0065415B /* Preview Assets.xcassets in Resources */,
+				E3360FDD260F9CAB00D578FA /* InfoPlist.strings in Resources */,
+				E3360FA5260F8C7E00D578FA /* Localizable.strings in Resources */,
 				E3431EF026074DDE0065415B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +309,27 @@
 			targetProxy = E3431F0526074DDE0065415B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E3360FA7260F8C7E00D578FA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3360FA6260F8C7E00D578FA /* en */,
+				E3360FB2260F94EC00D578FA /* tr-TR */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		E3360FDF260F9CAB00D578FA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3360FDE260F9CAB00D578FA /* en */,
+				E3360FE3260F9CB200D578FA /* tr-TR */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E3431F0B26074DDE0065415B /* Debug */ = {

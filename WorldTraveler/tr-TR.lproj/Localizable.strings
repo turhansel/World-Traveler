@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  WorldTraveler
+
+  Created by Turhan Sel on 27.03.2021.
+  
+*/
+
+"TAB_CONVERSION" = "Çevirici";
+"CONVERSION_DEGREES_CELCIUS" = "derece";
+"CONVERSION_FAHRENHEIT" = "fahrenheit";
+"CONVERSION_TEXT_FIELD_PLACEHOLDER" = "değer";
+"CONVERSION_IS_ACTUALLY" = "aslında";
+"TAB_MAP" = "Harita";
+"MAP_CITY_CANAKKALE" = "Çanakkale";
+"MAP_CITY_ANTALYA" = "Antalya";
+"MAP_CITY_LONDON" = "Londra";
+

@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  WorldTraveler
+
+  Created by Turhan Sel on 27.03.2021.
+  
+*/
+
+"CFBundleName" = "World Traveler";
+"CFBundleDisplayName" = "World Traveler";
