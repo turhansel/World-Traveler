@@ -11,6 +11,8 @@ struct ContentView: View {
     
     @State var fahrenheitValue: String = ""
     
+    @State var isVisible = false
+    
     let numberFormatter: NumberFormatter = {
         let numberFormatter = NumberFormatter()
         numberFormatter.numberStyle = .decimal
@@ -49,6 +51,12 @@ struct ContentView: View {
         }
         .foregroundColor(.orange)
         .font(.title)
+        .opacity(isVisible ? 1.0 : 0.0)
+        .offset(x: 0, y: isVisible ? 0 : 30)
+        .animation(.easeIn(duration: 1.0))
+        .onAppear {
+            self.isVisible = true
+        }
     }
 }
 
